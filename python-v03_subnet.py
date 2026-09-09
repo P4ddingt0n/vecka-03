@@ -1,6 +1,6 @@
 import ipaddress
 # Byt ut mot det nat du vill rakna pa.
-text = "192.168.0.1/26"
+text = "192.152.19.0/26"
 # Modulen ipaddress gor rakningen at dig.
 net = ipaddress.ip_network(text, strict=False)
 # Alla adresser du kan ge till en enhet.
